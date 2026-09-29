@@ -1,0 +1,2 @@
+{% assign status = include.status | default: "planned" %}
+<span class="status status-{{ status | downcase | replace: ' ', '-' }}">{{ status }}</span>

@@ -1,0 +1,45 @@
+title: "Research Project"
+tagline: "A structured workspace for an academic or technical project"
+description: >-
+  A generic project website for documenting objectives, methodology, activities,
+  milestones, literature, documents, outputs, and progress.
+baseurl: "/research-project"
+url: ""
+lang: "en"
+
+project:
+  short_title: "Project Alpha"
+  status: "Planning"
+  start_date: "2026-10-01"
+  end_date: "2027-03-31"
+  lead: "Your Name"
+  affiliation: "Your Institution / Laboratory"
+  email: "your.email@example.com"
+  repository_url: "https://github.com/USERNAME/research-project"
+
+collections:
+  milestones:
+    output: true
+    permalink: /milestones/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "milestones"
+    values:
+      layout: milestone
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

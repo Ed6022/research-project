@@ -1,0 +1,23 @@
+- title: "Project proposal"
+  category: "Document"
+  status: "planned"
+  file: ""
+  description: "Initial project definition, scope, objectives, and methodology."
+
+- title: "Data package"
+  category: "Data"
+  status: "planned"
+  file: ""
+  description: "Curated data and metadata used by the project."
+
+- title: "Analysis notebook / code"
+  category: "Code"
+  status: "planned"
+  file: ""
+  description: "Reproducible scripts, notebooks, or computational workflow."
+
+- title: "Final report"
+  category: "Document"
+  status: "planned"
+  file: ""
+  description: "Final synthesis of methods, results, discussion, and conclusions."

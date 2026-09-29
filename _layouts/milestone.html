@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% assign item = site.data.timeline | where: "id", page.milestone_id | first %}
+<article class="page">
+  <p class="eyebrow">{{ item.phase }} · {{ item.period }}</p>
+  <div class="title-row">
+    <h1>{{ item.title }}</h1>
+    {% include status-badge.html status=item.status %}
+  </div>
+  <p class="lead">{{ item.objective }}</p>
+
+  <section class="section-block">
+    <h2>Activities</h2>
+    <ul>{% for activity in item.activities %}<li>{{ activity }}</li>{% endfor %}</ul>
+  </section>
+
+  <section class="section-block">
+    <h2>Expected deliverables</h2>
+    <ul>{% for deliverable in item.deliverables %}<li>{{ deliverable }}</li>{% endfor %}</ul>
+  </section>
+
+  <section class="section-block">
+    <h2>Reference categories</h2>
+    <ul>{% for ref in item.literature %}<li>{{ ref }}</li>{% endfor %}</ul>
+  </section>
+
+  {% if content != "" %}
+  <section class="section-block">
+    <h2>Notes</h2>
+    <div class="prose">{{ content }}</div>
+  </section>
+  {% endif %}
+
+  <p><a class="button secondary" href="{{ '/timeline/' | relative_url }}">← Back to timeline</a></p>
+</article>

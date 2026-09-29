@@ -1,0 +1,136 @@
+- id: 1
+  slug: "01-definition"
+  phase: "Phase I · Definition"
+  period: "Month 1"
+  title: "Problem definition and scope"
+  status: "planned"
+  objective: "Define the research question, scope, constraints, and expected outputs."
+  activities:
+    - "Refine the central problem statement"
+    - "Define primary and secondary objectives"
+    - "Identify constraints, assumptions, and risks"
+  deliverables:
+    - "Project concept note"
+    - "Initial requirements and scope"
+  literature:
+    - "Foundational references"
+
+- id: 2
+  slug: "02-literature"
+  phase: "Phase I · Definition"
+  period: "Month 1–2"
+  title: "Literature review and state of the art"
+  status: "planned"
+  objective: "Build a traceable literature base and identify the methodological gap."
+  activities:
+    - "Collect key papers, reports, standards, and datasets"
+    - "Classify references by topic and relevance"
+    - "Prepare a synthesis of the state of the art"
+  deliverables:
+    - "Annotated bibliography"
+    - "State-of-the-art summary"
+  literature:
+    - "Review papers"
+    - "Recent methodological papers"
+
+- id: 3
+  slug: "03-methodology"
+  phase: "Phase II · Design"
+  period: "Month 2–3"
+  title: "Methodology design"
+  status: "planned"
+  objective: "Define the methods, data flow, validation strategy, and evaluation metrics."
+  activities:
+    - "Select methods and tools"
+    - "Define inputs and outputs"
+    - "Specify validation criteria and metrics"
+  deliverables:
+    - "Methodology document"
+    - "Experimental or computational workflow"
+  literature:
+    - "Methodological references"
+
+- id: 4
+  slug: "04-data"
+  phase: "Phase II · Design"
+  period: "Month 3"
+  title: "Data collection and preparation"
+  status: "planned"
+  objective: "Prepare the datasets, measurements, documents, or experimental inputs required by the project."
+  activities:
+    - "Acquire or generate project data"
+    - "Perform quality control"
+    - "Document provenance and preprocessing"
+  deliverables:
+    - "Curated input dataset"
+    - "Data dictionary / metadata"
+  literature:
+    - "Data sources and technical documentation"
+
+- id: 5
+  slug: "05-implementation"
+  phase: "Phase III · Execution"
+  period: "Month 3–4"
+  title: "Implementation and experiments"
+  status: "planned"
+  objective: "Implement the proposed workflow and generate reproducible results."
+  activities:
+    - "Implement the workflow"
+    - "Run experiments or analyses"
+    - "Store configurations and intermediate outputs"
+  deliverables:
+    - "Working implementation"
+    - "Experiment log"
+  literature:
+    - "Implementation references"
+
+- id: 6
+  slug: "06-validation"
+  phase: "Phase III · Execution"
+  period: "Month 4–5"
+  title: "Validation and evaluation"
+  status: "planned"
+  objective: "Evaluate results against predefined criteria and analyze uncertainty or limitations."
+  activities:
+    - "Calculate evaluation metrics"
+    - "Perform sensitivity or error analysis"
+    - "Compare against baselines or prior work"
+  deliverables:
+    - "Validation report"
+    - "Tables and figures"
+  literature:
+    - "Benchmark and validation references"
+
+- id: 7
+  slug: "07-discussion"
+  phase: "Phase IV · Synthesis"
+  period: "Month 5"
+  title: "Interpretation and discussion"
+  status: "planned"
+  objective: "Interpret the results in relation to the objectives and existing literature."
+  activities:
+    - "Discuss strengths and limitations"
+    - "Relate findings to previous work"
+    - "Identify implications and open questions"
+  deliverables:
+    - "Discussion draft"
+  literature:
+    - "Comparative references"
+
+- id: 8
+  slug: "08-final"
+  phase: "Phase IV · Synthesis"
+  period: "Month 6"
+  title: "Final documentation and dissemination"
+  status: "planned"
+  objective: "Consolidate project outputs into a clear, reproducible final package."
+  activities:
+    - "Prepare final report or manuscript"
+    - "Organize code, data, and supplementary material"
+    - "Prepare presentation or public summary"
+  deliverables:
+    - "Final report"
+    - "Presentation"
+    - "Archived project package"
+  literature:
+    - "Final reference list"
